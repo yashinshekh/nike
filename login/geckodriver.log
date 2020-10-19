@@ -1,4 +1,4 @@
-1602305086274	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileehRx16"
+1603084456624	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaKk7pr"
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
@@ -6,18 +6,12 @@
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602305088521	Marionette	INFO	Listening on port 38175
-1602305088581	Marionette	WARN	TLS certificate errors will be ignored for this session
-1602305088583	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:35147","noProxy":[],"sslProxy":"127.0.0.1:35147"}
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-1602305100870	Marionette	INFO	Stopped listening on port 38175
-1602305121666	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVb1F02"
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1603084458682	Marionette	INFO	Listening on port 45395
+1603084458730	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603084480764	Marionette	INFO	Stopped listening on port 45395
+1603084532174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTNKBJe"
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
@@ -25,24 +19,10 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602305124057	Marionette	INFO	Listening on port 45159
-1602305124077	Marionette	WARN	TLS certificate errors will be ignored for this session
-1602305124080	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45329","noProxy":[],"sslProxy":"127.0.0.1:45329"}
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-console.warn: SearchService: "not saving cache on shutdown due to initializing."
-console.error: "Could not load engine bing@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
-console.error: "Could not load engine ddg@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
-console.warn: SearchService: "_reInit: abandoning reInit due to shutting down"
-JavaScript error: resource://gre/modules/DeferredTask.jsm, line 215: Error: Unable to arm timer, the object has been finalized.
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
-1602305155715	Marionette	INFO	Stopped listening on port 45159
-1602305515000	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9zyKMp"
+1603084534164	Marionette	INFO	Listening on port 37855
+1603084534181	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603084553448	Marionette	INFO	Stopped listening on port 37855
+1603084598900	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT5T9T2"
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
@@ -50,35 +30,16 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught e
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 [fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602305517545	Marionette	INFO	Listening on port 33237
-1602305517609	Marionette	WARN	TLS certificate errors will be ignored for this session
-1602305517611	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41661","noProxy":[],"sslProxy":"127.0.0.1:41661"}
-1602305521728	Marionette	ERROR	[37] No reply from Marionette:Register
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-console.warn: SearchService: "not saving cache on shutdown due to initializing."
-console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: callAddonListeners :: line 1580\"  data: no]"
-console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2529\"  data: no]"
-console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2529\"  data: no]"
-console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2529\"  data: no]"
-console.warn: SearchService: "_reInit: abandoning reInit due to shutting down"
-JavaScript error: , line 0: uncaught exception: 2147500036
-1602305553174	Marionette	INFO	Stopped listening on port 33237
-1602811077034	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVnTUUg"
-[fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
-[fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
-[fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
-[fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
-[fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
-[fresh] [error] probe_ppp_module, can't find libpepflashplayer.so
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602811079319	Marionette	INFO	Listening on port 38929
-1602811079342	Marionette	WARN	TLS certificate errors will be ignored for this session
-1602811090898	Marionette	INFO	Stopped listening on port 38929
+1603084600725	Marionette	INFO	Listening on port 39883
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1603084600807	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603084620014	Marionette	INFO	Stopped listening on port 39883
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+

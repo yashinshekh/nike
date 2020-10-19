@@ -1,13 +1,19 @@
-[INFO  2020-10-16T07:02:54,774 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.4 
-[INFO  2020-10-16T07:02:54,802 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
-[INFO  2020-10-16T07:02:54,836 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
-[INFO  2020-10-16T07:02:54,949 org.eclipse.jetty.util.log] (main) Started SelectChannelConnector@0.0.0.0:8080 
-[INFO  2020-10-16T07:02:55,884 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp948960194-18) Starting proxy at address: 0.0.0.0/0.0.0.0:8081 
-[INFO  2020-10-16T07:02:55,937 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp948960194-18) Proxy listening with TCP transport 
-[INFO  2020-10-16T07:02:55,990 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp948960194-18) Proxy started at address: /0:0:0:0:0:0:0:0:8081 
-[INFO  2020-10-16T07:03:02,410 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-0-ProxyToServerWorker-1) (HANDSHAKING) [id: 0x3be984dc, L:0.0.0.0/0.0.0.0:42442]: Connection to upstream server failed java.nio.channels.ClosedChannelException: null
-	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
-
-[INFO  2020-10-16T07:03:02,508 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-0-ProxyToServerWorker-3) (HANDSHAKING) [id: 0xccda7b1d, L:0.0.0.0/0.0.0.0:42566]: Connection to upstream server failed java.nio.channels.ClosedChannelException: null
-	at io.netty.handler.ssl.SslHandler.channelInactive(...)(Unknown Source) ~[browsermob-dist-2.1.4.jar:?]
+[INFO  2020-10-19T11:01:38,554 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.4 
+[INFO  2020-10-19T11:01:38,576 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
+[INFO  2020-10-19T11:01:38,609 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
+[WARN  2020-10-19T11:01:38,717 org.eclipse.jetty.util.log] (main) FAILED SelectChannelConnector@0.0.0.0:8080: java.net.BindException: Address already in use 
+[WARN  2020-10-19T11:01:38,717 org.eclipse.jetty.util.log] (main) FAILED org.eclipse.jetty.server.Server@4b41e4dd: java.net.BindException: Address already in use 
+[ERROR 2020-10-19T11:01:38,717 net.lightbody.bmp.proxy.Main] (main) Failed to start Jetty server. Aborting. java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_265]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_265]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_265]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220) ~[?:1.8.0_265]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85) ~[?:1.8.0_265]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:162) ~[browsermob-dist-2.1.4.jar:?]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:356) ~[browsermob-dist-2.1.4.jar:?]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:240) ~[browsermob-dist-2.1.4.jar:?]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:55) ~[browsermob-dist-2.1.4.jar:?]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:269) ~[browsermob-dist-2.1.4.jar:?]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:55) ~[browsermob-dist-2.1.4.jar:?]
+	at net.lightbody.bmp.proxy.Main.main(Main.java:64) [browsermob-dist-2.1.4.jar:?]
 
